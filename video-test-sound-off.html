@@ -29,10 +29,10 @@
 
     if (playPromise !== undefined) {
         playPromise.then(function () {
-                log("result #1 : succeeded to autoplay with sound off");
+                log("result #1 : succeeded");
             }
         ).catch(function (error) {
-            log("result #1 : failed to autoplay with sound off : " + error);
+            log("result #1 : failed due to " + error);
         });
     }
 

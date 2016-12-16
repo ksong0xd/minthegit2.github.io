@@ -14,15 +14,15 @@
     }
 
 
-    log("test #2 : start autoplay with sound on");
+    log("test #3 : start autoplay with sound on with touch");
     log("<br><br>");
-    log("<font color='red'>please touch any spot on this page</font> to start a video with sound on");
+    log("<font color='red'>please touch any spot on this page</font> to start a test");
 
     var video = document.createElement("video");
     video.src = "http://acdn.adnxs.com/video/demos/content/videos/baby.mp4";
     video.width = 200;
     video.height = 100;
-    video.muted = true;
+    video.muted = false;
     document.body.appendChild(video);
     video.style.visibility = "hidden";
     var playPromise;
@@ -42,10 +42,10 @@
 
         if (playPromise !== undefined) {
             playPromise.then(function () {
-                    log("result #1 : succeeded to autoplay with sound on");
+                    log("result #3 : succeeded");
                 }
             ).catch(function (error) {
-                log("result #1 : failed to autoplay with sound on : " + error);
+                log("result #3 : failed due to " + error);
             });
         }
 
