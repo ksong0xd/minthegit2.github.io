@@ -1,0 +1,41 @@
+<html>
+<head>
+</head>
+<body>
+</body>
+
+<script>
+    var log = function(msg) {
+        var div = document.createElement("div");
+        div.innerHTML = msg;
+        document.body.appendChild(div);
+
+    }
+
+
+    log("test #1 : start autoplay with sound off");
+
+    var video = document.createElement("video");
+    video.src = "http://acdn.adnxs.com/video/demos/content/videos/baby.mp4";
+    video.width = 200;
+    video.height = 100;
+    video.muted = true;
+    document.body.appendChild(video);
+    var playPromise;
+
+
+    playPromise = video.play();
+
+    if (playPromise !== undefined) {
+        playPromise.then(function () {
+                log("result #1 : succeeded to autoplay with sound off");
+            }
+        ).catch(function (error) {
+            log("result #1 : failed to autoplay with sound off : " + error);
+        });
+    }
+
+
+
+</script>
+</html>

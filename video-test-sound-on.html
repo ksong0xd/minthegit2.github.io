@@ -1,0 +1,56 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+</head>
+<body>
+</body>
+
+<script>
+    var log = function(msg) {
+        var div = document.createElement("div");
+        div.innerHTML = msg;
+        document.body.appendChild(div);
+
+    }
+
+
+    log("test #2 : start autoplay with sound on");
+    log("<br>");
+    log("please touch any spot on this page to start video with sound on");
+
+    var video = document.createElement("video");
+    video.src = "http://acdn.adnxs.com/video/demos/content/videos/baby.mp4";
+    video.width = 200;
+    video.height = 100;
+    video.muted = true;
+    document.body.appendChild(video);
+    var playPromise;
+
+    var isDone = false;
+    document.body.addEventListener("touchend",function() {
+
+        if (isDone) {
+            return;
+        }
+
+        isDone = true;
+        playPromise = video.play();
+
+
+        if (playPromise !== undefined) {
+            playPromise.then(function () {
+                    log("result #1 : succeeded to autoplay with sound on");
+                }
+            ).catch(function (error) {
+                log("result #1 : failed to autoplay with sound on : " + error);
+            });
+        }
+
+
+    });
+
+
+
+
+</script>
+</html>
