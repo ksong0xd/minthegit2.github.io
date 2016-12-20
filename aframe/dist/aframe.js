@@ -65963,13 +65963,22 @@ function createVideoEl (src, width, height) {
   videoEl.width = width;
   videoEl.height = height;
   videoEl.setAttribute('webkit-playsinline', '');  // Support inline videos for iOS webviews.
-  videoEl.autoplay = true;
+  videoEl.setAttribute('playsinline', '');  // Support inline videos for iOS webviews.
+  //videoEl.autoplay = true;
   videoEl.loop = true;
   videoEl.crossOrigin = 'anonymous';
+  videoEl.muted = true;
   videoEl.addEventListener('error', function () {
     warn('`$s` is not a valid video', src);
   }, true);
   videoEl.src = src;
+
+
+  setTimeout(function() {
+      videoEl.load();
+      videoEl.play();
+  },3000);
+
   return videoEl;
 }
 
