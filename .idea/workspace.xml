@@ -38,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/aframe/examples/test/video/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="116" lean-forward="false" selection-start-line="15" selection-start-column="116" selection-end-line="15" selection-end-column="116" />
+              <caret line="15" column="130" lean-forward="false" selection-start-line="15" selection-start-column="130" selection-end-line="15" selection-end-column="130" />
               <folding />
             </state>
           </provider>
@@ -238,12 +238,12 @@
       <workItem from="1482199884715" duration="30000" />
       <workItem from="1482199924596" duration="19000" />
       <workItem from="1482199951507" duration="44000" />
-      <workItem from="1482200005795" duration="12291000" />
+      <workItem from="1482200005795" duration="12813000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14244000" />
+    <option name="totallyTimeSpent" value="14766000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-35" y="3" width="983" height="1040" extended-state="0" />
@@ -485,7 +485,7 @@
     <entry file="file://$PROJECT_DIR$/aframe/examples/test/video/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="116" lean-forward="false" selection-start-line="15" selection-start-column="116" selection-end-line="15" selection-end-column="116" />
+          <caret line="15" column="130" lean-forward="false" selection-start-line="15" selection-start-column="130" selection-end-line="15" selection-end-column="130" />
           <folding />
         </state>
       </provider>
