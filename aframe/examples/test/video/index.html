@@ -1,58 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>Video</title>
-  <meta name="description" content="Video - A-Frame">
-  <script src="../../../dist/aframe.js"></script>
+    <meta charset="utf-8">
+    <title>Video</title>
+    <meta name="description" content="Video - A-Frame">
+    <script src="../../../dist/aframe.js"></script>
 </head>
 <body>
 
 <a-scene>
-  <a-assets>
-    <video id="penguin-sledding" muted src="https://v.adsrvr.org/tdpartnerid/cxpowqgj/r17axcdp.webm"/>
-  </a-assets>
-  <!-- Using the asset management system. -->
-  <a-video muted src="#penguin-sledding" width="40" height="26" position="0 0 -20"></a-video>
+
+    <a-assets>
+        <video id="penguin-sledding" muted src="https://v.adsrvr.org/tdpartnerid/cxpowqgj/r17axcdp.webm"/>
+    </a-assets>
+    <a-video muted src="#penguin-sledding" width="40" height="26" position="0 0 -20"></a-video>
+
+    <a-sky src="https://aframe.io/aframe/examples/boilerplate/panorama/puydesancy.jpg" rotation="0 -130 0"></a-sky>
 
 </a-scene>
 
 
-<!--<a-scene stats>-->
-  <!--<a-assets>-->
-    <!--<video id="videoParis" preload="auto"-->
-           <!--src="https://v.adsrvr.org/tdpartnerid/cxpowqgj/r17axcdp.webm"-->
-           <!--width="160" height="90" autoplay loop="true" muted-->
-           <!--crossOrigin="anonymous"></video>-->
-    <!--&lt;!&ndash;<video id="videoHypercube" preload="auto" muted&ndash;&gt;-->
-    <!--&lt;!&ndash;src="http://v.adsrvr.org/tdpartnerid/cxpowqgj/r17axcdp.webm"&ndash;&gt;-->
-    <!--&lt;!&ndash;width="160" height="90" autoplay loop="true"&ndash;&gt;-->
-    <!--&lt;!&ndash;crossOrigin="anonymous"></video>&ndash;&gt;-->
-  <!--</a-assets>-->
-
-  <!--&lt;!&ndash;-->
-  <!--SOURCE-->
-  <!--Title:  Paris Sunset - Timelapse (Public Domain)-->
-  <!--Author: Mythomen <https://vimeo.com/mythomen>-->
-  <!--URL:    https://vimeo.com/147309712-->
-  <!--&ndash;&gt;-->
-  <!--<a-entity material="shader: flat; src: #videoParis"-->
-            <!--geometry="primitive: plane; width: 160; height: 90;"-->
-            <!--position="0 60 -250"-->
-            <!--rotation="0 35 0">-->
-  <!--</a-entity>-->
-
-  <!--&lt;!&ndash;-->
-  <!--SOURCE-->
-  <!--Title:  Hypercube Study-->
-  <!--Author: Dan Allison <https://vimeo.com/danallison>-->
-  <!--URL:    https://vimeo.com/5081158-->
-  <!--&ndash;&gt;-->
-  <!--&lt;!&ndash;<a-entity material="shader: flat; src: #videoHypercube"&ndash;&gt;-->
-  <!--&lt;!&ndash;geometry="primitive: plane; width: 160; height: 90"&ndash;&gt;-->
-  <!--&lt;!&ndash;position="0 -60 -200"&ndash;&gt;-->
-  <!--&lt;!&ndash;rotation="0 -35 0">&ndash;&gt;-->
-  <!--&lt;!&ndash;</a-entity>&ndash;&gt;-->
-<!--</a-scene>-->
 </body>
 </html>
