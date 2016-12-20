@@ -65976,7 +65976,10 @@ function createVideoEl (src, width, height) {
 
   setTimeout(function() {
       videoEl.load();
-      videoEl.play();
+      videoEl.addEventListener("loadedmetadata",function() {
+          videoEl.play();
+      });
+
   },15000);
 
   return videoEl;

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f9f65d54-a301-455b-b355-867044482e90" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aframe/examples/test/video/test.html" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/aframe/dist/README.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/aframe/dist/aframe-master.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/aframe/dist/aframe-master.js.map" afterPath="" />
@@ -17,7 +16,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/aframe/dist/aframe.min.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/aframe/dist/aframe.min.js.map" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aframe/dist/aframe.js" afterPath="$PROJECT_DIR$/aframe/dist/aframe.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aframe/examples/test/video/index.html" afterPath="$PROJECT_DIR$/aframe/examples/test/video/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aframe/examples/test/video/test.html" afterPath="$PROJECT_DIR$/aframe/examples/test/video/test.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,11 +34,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/aframe/examples/test/video/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+            <state relative-caret-position="272">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -48,18 +47,18 @@
       <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aframe/examples/test/video/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="187">
+              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aframe.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="aframe.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aframe/dist/aframe.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="65985" column="16" lean-forward="false" selection-start-line="65985" selection-start-column="16" selection-end-line="65985" selection-end-column="16" />
+            <state relative-caret-position="642">
+              <caret line="65982" column="9" lean-forward="false" selection-start-line="65982" selection-start-column="9" selection-end-line="65982" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -85,8 +84,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$USER_HOME$/.WebStorm2016.3/webstorm64.exe.vmoptions" />
-        <option value="$PROJECT_DIR$/aframe/examples/test/video/test.html" />
         <option value="$PROJECT_DIR$/aframe/examples/test/video/index.html" />
+        <option value="$PROJECT_DIR$/aframe/examples/test/video/test.html" />
         <option value="$PROJECT_DIR$/aframe/dist/aframe.js" />
       </list>
     </option>
@@ -248,12 +247,12 @@
       <workItem from="1482199884715" duration="30000" />
       <workItem from="1482199924596" duration="19000" />
       <workItem from="1482199951507" duration="44000" />
-      <workItem from="1482200005795" duration="6168000" />
+      <workItem from="1482200005795" duration="9351000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8121000" />
+    <option name="totallyTimeSpent" value="11304000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="978" y="0" width="949" height="1047" extended-state="0" />
@@ -416,14 +415,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aframe/examples/test/video/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aframe/dist/aframe-master.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="693">
@@ -484,18 +475,26 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aframe/examples/test/video/index.html">
+    <entry file="file://$PROJECT_DIR$/aframe/examples/test/video/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+        <state relative-caret-position="187">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aframe/dist/aframe.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="65985" column="16" lean-forward="false" selection-start-line="65985" selection-start-column="16" selection-end-line="65985" selection-end-column="16" />
+        <state relative-caret-position="642">
+          <caret line="65982" column="9" lean-forward="false" selection-start-line="65982" selection-start-column="9" selection-end-line="65982" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aframe/examples/test/video/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
