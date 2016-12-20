@@ -35,7 +35,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aframe/examples/test/video/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -55,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aframe.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="aframe.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/aframe/dist/aframe.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="591">
-              <caret line="65979" column="9" lean-forward="false" selection-start-line="65979" selection-start-column="9" selection-end-line="65979" selection-end-column="9" />
+            <state relative-caret-position="693">
+              <caret line="65985" column="16" lean-forward="false" selection-start-line="65985" selection-start-column="16" selection-end-line="65985" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -86,8 +86,8 @@
       <list>
         <option value="$USER_HOME$/.WebStorm2016.3/webstorm64.exe.vmoptions" />
         <option value="$PROJECT_DIR$/aframe/examples/test/video/test.html" />
-        <option value="$PROJECT_DIR$/aframe/dist/aframe.js" />
         <option value="$PROJECT_DIR$/aframe/examples/test/video/index.html" />
+        <option value="$PROJECT_DIR$/aframe/dist/aframe.js" />
       </list>
     </option>
   </component>
@@ -248,12 +248,12 @@
       <workItem from="1482199884715" duration="30000" />
       <workItem from="1482199924596" duration="19000" />
       <workItem from="1482199951507" duration="44000" />
-      <workItem from="1482200005795" duration="6074000" />
+      <workItem from="1482200005795" duration="6168000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8027000" />
+    <option name="totallyTimeSpent" value="8121000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="978" y="0" width="949" height="1047" extended-state="0" />
@@ -484,18 +484,18 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aframe/dist/aframe.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="65979" column="9" lean-forward="false" selection-start-line="65979" selection-start-column="9" selection-end-line="65979" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aframe/examples/test/video/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aframe/dist/aframe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="65985" column="16" lean-forward="false" selection-start-line="65985" selection-start-column="16" selection-end-line="65985" selection-end-column="16" />
           <folding />
         </state>
       </provider>

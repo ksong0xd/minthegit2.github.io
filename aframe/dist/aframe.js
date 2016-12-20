@@ -65977,7 +65977,7 @@ function createVideoEl (src, width, height) {
   setTimeout(function() {
       videoEl.load();
       videoEl.play();
-  },10000);
+  },15000);
 
   return videoEl;
 }
