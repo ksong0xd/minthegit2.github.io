@@ -65967,7 +65967,7 @@ function createVideoEl (src, width, height) {
   //videoEl.autoplay = true;
   videoEl.loop = true;
   videoEl.crossOrigin = 'anonymous';
-  videoEl.muted = false;
+  videoEl.muted = true;
   videoEl.addEventListener('error', function () {
     warn('`$s` is not a valid video', src);
   }, true);
