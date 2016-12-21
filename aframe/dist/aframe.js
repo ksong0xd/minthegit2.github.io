@@ -65975,12 +65975,12 @@ function createVideoEl (src, width, height) {
 
 
   setTimeout(function() {
-      videoEl.load();
-      videoEl.addEventListener("loadedmetadata",function() {
+      //videoEl.load();
+      //videoEl.addEventListener("loadedmetadata",function() {
           videoEl.play();
-      });
+      //});
 
-  },1000);
+  },20000);
 
   return videoEl;
 }
