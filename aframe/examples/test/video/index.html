@@ -4,23 +4,127 @@
     <meta charset="utf-8">
     <title>Video</title>
     <meta name="description" content="Video - A-Frame">
-    <script src="../../../dist/aframe.js"></script>
+    <!--<script src="../../../dist/aframe.js"></script>-->
+    <script src="https://aframe.io/aframe/dist/aframe.js"></script>
+
+
+
 </head>
 <body>
-
-<a-scene>
-
-    <a-assets>
-        <video id="penguin-sledding" muted src="https://v.adsrvr.org/tdpartnerid/cxpowqgj/r17axcdp.webm"/>
-    </a-assets>
-    <a-video muted src="#penguin-sledding" width="40" height="26" position="110.86 62.31 -200" rotation="2 -32 0" scale="7.14 6.46 5.00"></a-video>
+<div>outstream</div>
 
 
+<!--<a-scene>-->
 
-    <a-sky src="theater.jpg" rotation="0 -130 0"></a-sky>
+    <!--<a-assets>-->
 
-</a-scene>
+        <!--<video id="main-video" src="http://v.adsrvr.org/tdpartnerid/cxpowqgj/r17axcdp.webm"/>-->
+        <!--<video id="main-video" src="http://acdn.adnxs.com/video/demos/content/videos/baby-high.mp4"/>-->
+        <!--<video id="main-video" src="http://vcdn.adnxs.com/p/creative-video/95/76/f1/e2/9576f1e2-5d59-450b-bd7c-16af7159cceb/9576f1e2-5d59-450b-bd7c-16af7159cceb_768_432_500k.mp4"/>-->
+        <!--<video id="main-video" src="http://acdn.adnxs.com/video/demos/content/videos/news.mp4"/>-->
+        <!--<video id="main-video" src="https://cdn.playbuzz.com/content/monetization/knorr_dancing_15s_frca.mp4"/>-->
+        <!--<video id="main-video"-->
+               <!--src="http://vcdn.adnxs.com/p/creative-video/d2/c8/b5/42/d2c8b542-f37b-4860-98e2-3320b4d8b7b6/d2c8b542-f37b-4860-98e2-3320b4d8b7b6_768_432_1700k.mp4"/>-->
 
+    <!--</a-assets>-->
+
+    <!--<a-video src="#main-video" width="40" height="26" position="110.86 62.31 -200" rotation="2 -32 0"-->
+             <!--scale="7.14 6.46 5.00"></a-video>-->
+    <!--<a-sky src="theater.jpg" rotation="0 -130 0"></a-sky>-->
+
+    <!--<a-entity hand-controls="left"></a-entity>-->
+    <!--<a-entity hand-controls="right"></a-entity>-->
+<!--</a-scene>-->
+
+
+<!--<a-scene>-->
+<!--<a-assets>-->
+<!--<video id="video" src="http://vr.jwplayer.com/content/AgqYcfAT/AgqYcfAT-8yQ1cYbs.mp4"-->
+<!--autoplay loop crossorigin></video>-->
+<!--</a-assets>-->
+
+<!--<a-videosphere src="#video" rotation="0 180 0"></a-videosphere>-->
+<!--</a-scene>-->
+
+
+<script>
+
+    var render360Video = function() {
+        var scene = document.createElement("a-scene");
+        var assets = document.createElement("a-assets");
+        var video = document.createElement("video");
+        var avideo = document.createElement("a-videosphere");
+
+        video.setAttribute("id","main-video");
+        video.setAttribute("src","http://vr.jwplayer.com/content/AgqYcfAT/AgqYcfAT-8yQ1cYbs.mp4");
+
+        avideo.setAttribute("src","#main-video");
+        avideo.setAttribute("rotation","0 180 0");
+
+        document.body.appendChild(scene);
+        scene.appendChild(assets);
+        assets.appendChild(video);
+        scene.appendChild(avideo);
+
+
+
+    };
+
+
+    var renderVRVideo = function() {
+        var scene = document.createElement("a-scene");
+        var sky = document.createElement("a-sky");
+        var assets = document.createElement("a-assets");
+        var video = document.createElement("video");
+        var avideo = document.createElement("a-video");
+
+        video.setAttribute("id","main-video");
+        video.setAttribute("src","http://v.adsrvr.org/tdpartnerid/cxpowqgj/r17axcdp.webm");
+
+        avideo.setAttribute("src","#main-video");
+        avideo.setAttribute("width","40");
+        avideo.setAttribute("height","26");
+        avideo.setAttribute("position","110.86 62.31 -200");
+        avideo.setAttribute("rotation","2 -32 0");
+        avideo.setAttribute("scale","7.14 6.46 5.00");
+
+        sky.setAttribute("src","theater.jpg");
+        sky.setAttribute("rotation","0 -130 0");
+
+        document.body.appendChild(scene);
+        scene.appendChild(assets);
+        assets.appendChild(video);
+        scene.appendChild(avideo);
+        scene.appendChild(sky);
+    };
+
+    //renderVRVideo();
+    render360Video();
+
+
+
+    //    setTimeout(function() {
+    //        var scene = document.getElementsByTagName("canvas")[0];
+    //        scene.style.width = "400px";
+    //        scene.style.height = "300px";
+    //
+    //    },3000);
+
+//    var scene = document.getElementsByTagName("a-scene")[0];
+//    scene.addEventListener("render-start", function () {
+//        setTimeout(function() {
+//            scene.enterVR()
+//        },3000);
+
+        //scene.enterVR();
+//    });
+
+    //    setTimeout(function () {
+    //        scene.enterVR();
+    //    }, 3000);
+
+
+</script>
 
 </body>
 </html>

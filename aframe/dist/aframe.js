@@ -65967,7 +65967,7 @@ function createVideoEl (src, width, height) {
   //videoEl.autoplay = true;
   videoEl.loop = true;
   videoEl.crossOrigin = 'anonymous';
-  videoEl.muted = true;
+  videoEl.muted = false;
   videoEl.addEventListener('error', function () {
     warn('`$s` is not a valid video', src);
   }, true);
@@ -65980,7 +65980,7 @@ function createVideoEl (src, width, height) {
           videoEl.play();
       });
 
-  },15000);
+  },1000);
 
   return videoEl;
 }

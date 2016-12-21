@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9f65d54-a301-455b-b355-867044482e90" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aframe/dist/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aframe/dist/aframe-master.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aframe/dist/aframe-master.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aframe/dist/aframe-master.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aframe/dist/aframe-master.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aframe/dist/aframe-v0.4.0.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aframe/dist/aframe-v0.4.0.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aframe/dist/aframe-v0.4.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aframe/dist/aframe-v0.4.0.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aframe/dist/aframe.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aframe/dist/aframe.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aframe/dist/aframe.min.js.map" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aframe/examples/test/video/ANOutstreamVideo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aframe/examples/test/video/VRStream.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aframe/examples/test/video/ast.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aframe/dist/aframe.js" afterPath="$PROJECT_DIR$/aframe/dist/aframe.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aframe/examples/test/video/index.html" afterPath="$PROJECT_DIR$/aframe/examples/test/video/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aframe/examples/test/video/test.html" afterPath="$PROJECT_DIR$/aframe/examples/test/video/test.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,22 +25,57 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aframe/examples/test/video/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="130" lean-forward="false" selection-start-line="15" selection-start-column="130" selection-end-line="15" selection-end-column="130" />
+            <state relative-caret-position="408">
+              <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aframe.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aframe/dist/aframe.js">
+      <file leaf-file-name="VRStream.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aframe/examples/test/video/VRStream.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="65982" column="9" lean-forward="false" selection-start-line="65982" selection-start-column="9" selection-end-line="65982" selection-end-column="9" />
-              <folding />
+            <state relative-caret-position="272">
+              <caret line="61" column="38" lean-forward="false" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ANOutstreamVideo_org.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/aframe/examples/test/video/ANOutstreamVideo_org.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="833">
+              <caret line="1598" column="44" lean-forward="true" selection-start-line="1598" selection-start-column="44" selection-end-line="1598" selection-end-column="44" />
+              <folding>
+                <element signature="e#84632#88678#0" expanded="false" />
+                <marker date="1482260894914" expanded="true" signature="534897:535014" ph="..." />
+                <marker date="1482260894914" expanded="true" signature="656478:656486" ph="..." />
+                <marker date="1482260894914" expanded="true" signature="656645:656653" ph="..." />
+                <marker date="1482260894914" expanded="true" signature="662523:662531" ph="..." />
+                <marker date="1482260894914" expanded="true" signature="671396:671521" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ANOutstreamVideo.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aframe/examples/test/video/ANOutstreamVideo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="1951" column="52" lean-forward="false" selection-start-line="1951" selection-start-column="52" selection-end-line="1951" selection-end-column="52" />
+              <folding>
+                <marker date="1482266337966" expanded="true" signature="534897:535014" ph="..." />
+                <marker date="1482266337966" expanded="true" signature="656478:656486" ph="..." />
+                <marker date="1482266337966" expanded="true" signature="656645:656653" ph="..." />
+                <marker date="1482266337966" expanded="true" signature="662523:662531" ph="..." />
+                <marker date="1482266337966" expanded="true" signature="671396:671521" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,8 +90,26 @@
       <find>primitive</find>
       <find>video</find>
       <find>'VIDEO</find>
+      <find>storedPublisherData</find>
+      <find>storedVastData</find>
+      <find>parse</find>
+      <find>configureAd</find>
+      <find>.parse</find>
       <find>'VIDEO'</find>
+      <find>penguin-sledding</find>
+      <find>click</find>
+      <find>&quot;click&quot;</find>
+      <find>&quot;click&quot; :</find>
+      <find>explicitPlay</find>
+      <find>publisherData_</find>
+      <find>remove</find>
+      <find>initialAudio</find>
+      <find>audio</find>
+      <find>a-scene</find>
     </findStrings>
+    <replaceStrings>
+      <replace>main-video</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -73,10 +117,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/.WebStorm2016.3/webstorm64.exe.vmoptions" />
         <option value="$PROJECT_DIR$/aframe/examples/test/video/test.html" />
         <option value="$PROJECT_DIR$/aframe/dist/aframe.js" />
+        <option value="$PROJECT_DIR$/aframe/examples/test/video/ANOutstreamVR.js" />
+        <option value="$PROJECT_DIR$/aframe/examples/test/video/ast.js" />
+        <option value="$USER_HOME$/.WebStorm2016.3/webstorm64.exe.vmoptions" />
         <option value="$PROJECT_DIR$/aframe/examples/test/video/index.html" />
+        <option value="$PROJECT_DIR$/aframe/examples/test/video/ANOutstreamVideo.js" />
+        <option value="$PROJECT_DIR$/aframe/examples/test/video/VRStream.html" />
       </list>
     </option>
   </component>
@@ -86,11 +134,17 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/aframe/node_modules" />
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-35" />
-    <option name="y" value="3" />
-    <option name="width" value="983" />
-    <option name="height" value="1040" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -149,7 +203,55 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="minthegit.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="minthegit.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aframe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="minthegit.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="minthegit.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aframe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="video" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -198,6 +300,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -238,33 +346,36 @@
       <workItem from="1482199884715" duration="30000" />
       <workItem from="1482199924596" duration="19000" />
       <workItem from="1482199951507" duration="44000" />
-      <workItem from="1482200005795" duration="12813000" />
+      <workItem from="1482200005795" duration="29790000" />
+      <workItem from="1482237355514" duration="4981000" />
+      <workItem from="1482261698299" duration="2960000" />
+      <workItem from="1482332863577" duration="161000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14766000" />
+    <option name="totallyTimeSpent" value="39845000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-35" y="3" width="983" height="1040" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.68042326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34508547" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,33 +391,98 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/aframe/examples/test/video/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        <state relative-caret-position="408">
+          <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aframe/dist/aframe.js">
+    <entry file="file://$PROJECT_DIR$/aframe/examples/test/video/VRStream.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507977">
-          <caret line="29881" column="33" lean-forward="false" selection-start-line="29881" selection-start-column="23" selection-end-line="29881" selection-end-column="33" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.WebStorm2016.3/idea.properties">
+    <entry file="file://$PROJECT_DIR$/aframe/examples/test/video/ANOutstreamVideo_org.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="27013">
+          <caret line="1589" column="36" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25250" selection-end-column="16" />
+          <folding>
+            <element signature="e#84632#88678#0" expanded="false" />
+            <marker date="1482260894914" expanded="true" signature="534897:535014" ph="..." />
+            <marker date="1482260894914" expanded="true" signature="656478:656486" ph="..." />
+            <marker date="1482260894914" expanded="true" signature="656645:656653" ph="..." />
+            <marker date="1482260894914" expanded="true" signature="662523:662531" ph="..." />
+            <marker date="1482260894914" expanded="true" signature="671396:671521" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aframe/examples/test/video/ANOutstreamVideo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33677">
+          <caret line="1981" column="27" lean-forward="false" selection-start-line="1981" selection-start-column="27" selection-end-line="1981" selection-end-column="28" />
+          <folding>
+            <marker date="1482266337966" expanded="true" signature="534897:535014" ph="..." />
+            <marker date="1482266337966" expanded="true" signature="656478:656486" ph="..." />
+            <marker date="1482266337966" expanded="true" signature="656645:656653" ph="..." />
+            <marker date="1482266337966" expanded="true" signature="662523:662531" ph="..." />
+            <marker date="1482266337966" expanded="true" signature="671396:671521" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aframe/examples/test/video/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="22" lean-forward="false" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.WebStorm2016.3/webstorm64.exe.vmoptions">
+    <entry file="file://$PROJECT_DIR$/aframe/examples/test/video/VRStream.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aframe/examples/test/video/ANOutstreamVideo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="21758" lean-forward="false" selection-start-line="6" selection-start-column="21758" selection-end-line="6" selection-end-column="21758" />
+          <folding>
+            <marker date="1482266337966" expanded="true" signature="534897:535014" ph="..." />
+            <marker date="1482266337966" expanded="true" signature="656478:656486" ph="..." />
+            <marker date="1482266337966" expanded="true" signature="656645:656653" ph="..." />
+            <marker date="1482266337966" expanded="true" signature="662523:662531" ph="..." />
+            <marker date="1482266337966" expanded="true" signature="671396:671521" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aframe/examples/test/video/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aframe/examples/test/video/VRStream.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2023">
+          <caret line="119" column="17" lean-forward="false" selection-start-line="119" selection-start-column="9" selection-end-line="119" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -330,7 +506,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -338,7 +513,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -362,7 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -370,7 +543,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aframe/examples/test/video/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aframe/dist/aframe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507977">
+          <caret line="29881" column="33" lean-forward="false" selection-start-line="29881" selection-start-column="23" selection-end-line="29881" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.WebStorm2016.3/idea.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.WebStorm2016.3/webstorm64.exe.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -390,103 +592,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.WebStorm2016.3/webstorm64.exe.vmoptions">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.WebStorm2016.3/idea.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aframe/dist/aframe-master.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="65453" column="63" lean-forward="false" selection-start-line="65453" selection-start-column="51" selection-end-line="65453" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aframe/dist/aframe-v0.4.0.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aframe/dist/aframe.min.js.map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aframe/dist/aframe.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/aframe/dist/aframe-master.js" />
+    <entry file="file://$PROJECT_DIR$/aframe/dist/aframe-v0.4.0.js" />
+    <entry file="file://$PROJECT_DIR$/aframe/dist/aframe.min.js.map" />
+    <entry file="file://$PROJECT_DIR$/aframe/dist/aframe.min.js" />
     <entry file="file://$PROJECT_DIR$/aframe/docs/primitives/a-video.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <marker date="1482191591981" expanded="true" signature="176:567" ph="..." />
-              <marker date="1482191591981" expanded="true" signature="189:285" ph="..." />
-            </folding>
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aframe/dist/aframe.js.map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="81" column="44" lean-forward="true" selection-start-line="81" selection-start-column="44" selection-end-line="81" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/aframe/dist/aframe.js.map" />
     <entry file="file://$PROJECT_DIR$/aframe/examples/test/video/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aframe/dist/aframe.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="65982" column="9" lean-forward="false" selection-start-line="65982" selection-start-column="9" selection-end-line="65982" selection-end-column="9" />
+        <state relative-caret-position="574">
+          <caret line="65962" column="24" lean-forward="true" selection-start-line="65962" selection-start-column="24" selection-end-line="65962" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aframe/examples/test/video/ast.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.WebStorm2016.3/webstorm64.exe.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aframe/examples/test/video/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="130" lean-forward="false" selection-start-line="15" selection-start-column="130" selection-end-line="15" selection-end-column="130" />
+        <state relative-caret-position="408">
+          <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aframe/examples/test/video/VRStream.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="61" column="38" lean-forward="false" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aframe/examples/test/video/ANOutstreamVideo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="1951" column="52" lean-forward="false" selection-start-line="1951" selection-start-column="52" selection-end-line="1951" selection-end-column="52" />
+          <folding>
+            <marker date="1482266337966" expanded="true" signature="534897:535014" ph="..." />
+            <marker date="1482266337966" expanded="true" signature="656478:656486" ph="..." />
+            <marker date="1482266337966" expanded="true" signature="656645:656653" ph="..." />
+            <marker date="1482266337966" expanded="true" signature="662523:662531" ph="..." />
+            <marker date="1482266337966" expanded="true" signature="671396:671521" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aframe/examples/test/video/ANOutstreamVideo_org.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="1598" column="44" lean-forward="true" selection-start-line="1598" selection-start-column="44" selection-end-line="1598" selection-end-column="44" />
+          <folding>
+            <element signature="e#84632#88678#0" expanded="false" />
+            <marker date="1482260894914" expanded="true" signature="534897:535014" ph="..." />
+            <marker date="1482260894914" expanded="true" signature="656478:656486" ph="..." />
+            <marker date="1482260894914" expanded="true" signature="656645:656653" ph="..." />
+            <marker date="1482260894914" expanded="true" signature="662523:662531" ph="..." />
+            <marker date="1482260894914" expanded="true" signature="671396:671521" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
