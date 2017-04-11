@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="3.0">
+    <Ad id="749382">
+        <InLine>
+            <AdSystem>Acudeo Compatible</AdSystem>
+            <AdTitle>VAST 3.0 Skippable Test</AdTitle>
+            <Impression>http://127.0.0.1:8080/impression-skippy-a</Impression>
+            <Creatives>
+                <Creative AdID="749382">
+                    <Linear skipoffset="00:00:05.500">
+                        <Icons>
+                            <Icon program="aaaa" width="100" height="30" xPosition="10" yPosition="10" offset="00:00:03" duration="00:01:30" apiFramework="string">
+                                <StaticResource creativeType="application/x-javascript">
+                                    minthegit.github.io/adIcon.js
+                                </StaticResource>
+                                <IconClicks>
+                                    <!--Zero or more repetitions:-->
+                                    <IconClickTracking>http://www.sample.org/arce/click1aaa</IconClickTracking>
+                                    <IconClickTracking>http://www.sample.org/arce/click2aaa</IconClickTracking>
+                                    <!--Optional:-->
+                                    <IconClickThrough>http://www.sample.org/arce/openwindowaaa</IconClickThrough>
+                                </IconClicks>
+                                <!--Zero or more repetitions:-->
+                                <IconViewTracking>http://www.sample.org/arce/claustra1aaa</IconViewTracking>
+                                <IconViewTracking>http://www.sample.org/arce/claustra2aaa</IconViewTracking>
+                                <IconViewTracking>http://www.sample.org/arce/claustra3aaa</IconViewTracking>
+                            </Icon>
+
+
+                            <Icon program="bbbb" width="100" height="30" xPosition="10" yPosition="10" offset="00:00:03" duration="00:00:03" apiFramework="string">
+                                <StaticResource creativeType="Image/jpeg">
+                                    https://www.seek.com.au/logos/Jobseeker/Thumbnail/623201.jpg
+                                </StaticResource>
+                                <IconClicks>
+                                    <!--Zero or more repetitions:-->
+                                    <IconClickTracking>http://www.sample.org/arce/click1aaa</IconClickTracking>
+                                    <IconClickTracking>http://www.sample.org/arce/click2aaa</IconClickTracking>
+                                    <!--Optional:-->
+                                    <IconClickThrough>http://www.sample.org/arce/openwindowaaa</IconClickThrough>
+                                </IconClicks>
+                                <!--Zero or more repetitions:-->
+                                <IconViewTracking>http://www.sample.org/arce/claustra1aaa</IconViewTracking>
+                                <IconViewTracking>http://www.sample.org/arce/claustra2aaa</IconViewTracking>
+                                <IconViewTracking>http://www.sample.org/arce/claustra3aaa</IconViewTracking>
+                            </Icon>
+
+
+
+
+                        </Icons>
+
+
+                        <Duration>00:01:06</Duration>
+                        <MediaFiles>
+                            <MediaFile maintainAspectRatio="true" scalable="true" height="240" width="578" bitrate="500" type="video/mp4" delivery="progressive">
+                                http://acdn.adnxs.com/video/demos/content/videos/news.mp4
+                            </MediaFile>
+                        </MediaFiles>
+                        <TrackingEvents>
+                            <Tracking event="start">http://myTrackingURL/start</Tracking>
+                            <Tracking event="skip">http://myTrackingURL/skip</Tracking>
+                            <Tracking event="complete">http://myTrackingURL/complete</Tracking>
+                            <Tracking event="progress" offset="00:00:30">http://myTrackingURL/thirty</Tracking>
+                            <Tracking event="progress" offset="00:00:30.123">http://myTrackingURL/thirty3</Tracking>
+                            <Tracking event="progress" offset="10%">http://myTrackingURL/thirty1</Tracking>
+                            <Tracking event="progress" offset="10%">http://myTrackingURL/thirty2</Tracking>
+                        </TrackingEvents>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>
